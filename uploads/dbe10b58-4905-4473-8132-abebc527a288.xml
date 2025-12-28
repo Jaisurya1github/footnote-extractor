@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://example.com/book/schema">
+    <metadata>
+        <title>Enterprise XML Processing</title>
+        <author>John Doe</author>
+    </metadata>
+
+    <chapter id="ch1">
+        <title>Introduction</title>
+        <para>
+            XML is widely used in enterprise systems.
+            <footnote id="fn1">
+                This is the first footnote explaining XML usage.
+            </footnote>
+        </para>
+    </chapter>
+
+    <chapter id="ch2">
+        <title>Streaming Parsers</title>
+        <para>
+            Streaming parsers are memory efficient.
+            <footnote id="fn2">
+                SAX and StAX are examples of streaming APIs.
+            </footnote>
+            <footnote id="fn3">
+                lxml.iterparse is commonly used in Python.
+            </footnote>
+        </para>
+    </chapter>
+
+    <appendix>
+        <para>
+            Additional references.
+            <footnote id="fn4">
+                Always use streaming for large XML files.
+            </footnote>
+        </para>
+    </appendix>
+</book>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<footnotes><footnote xmlns="http://example.com/book/schema" id="fn1">
+                This is the first footnote explaining XML usage.
+            </footnote>
+        <footnote xmlns="http://example.com/book/schema" id="fn2">
+                SAX and StAX are examples of streaming APIs.
+            </footnote>
+            <footnote xmlns="http://example.com/book/schema" id="fn3">
+                lxml.iterparse is commonly used in Python.
+            </footnote>
+        <footnote xmlns="http://example.com/book/schema" id="fn4">
+                Always use streaming for large XML files.
+            </footnote>
+        </footnotes>
